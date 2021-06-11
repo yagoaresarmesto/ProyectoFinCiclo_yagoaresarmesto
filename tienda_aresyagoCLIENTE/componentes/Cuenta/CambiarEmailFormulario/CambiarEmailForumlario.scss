@@ -1,0 +1,22 @@
+.cambiar-email-formulario {
+    padding: 20px 15px;
+  
+    > h4 {
+      color: rgb(0, 0, 0);
+      font-size: 22px;
+  
+      > span {
+        font-weight: 100;
+        font-size: 12px;
+      }
+    }
+  
+    > form {
+      text-align: left;
+  
+      .submit {
+        padding: 12px 60px;
+      }
+    }
+  }
+  

@@ -1,0 +1,33 @@
+.list-address {
+  padding: 10px;
+
+  .address {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    p {
+      margin-bottom: 5px;
+
+      &:first-of-type {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 20px;
+       
+      }
+    }
+
+    .actions {
+      margin-top: 20px;
+      
+
+      .ui.button.primary {
+        background-color: rgb(255, 102, 0);
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+  

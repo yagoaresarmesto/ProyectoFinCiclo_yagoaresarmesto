@@ -1,0 +1,30 @@
+.wishlist {
+    &__block {
+      padding: 10px;
+  
+      .title {
+        width: max-content;
+        background-color: rgb(192, 18, 18);
+        color: white;
+        padding: 5px 10px;
+        
+      }
+  
+      .data {
+        background-color: white;
+        box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+  
+        &__not-found {
+          text-align: center;
+          padding: 20px 0;
+        }
+  
+        .list-games {
+          .ui.grid {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  

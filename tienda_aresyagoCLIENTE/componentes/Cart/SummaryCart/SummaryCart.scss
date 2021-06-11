@@ -1,0 +1,60 @@
+.resumen-carrito {
+  padding: 10px;
+
+  .titulo {
+    width: max-content;
+    background-color: rgb(199, 15, 15);
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .data {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    padding: 15px;
+
+    .resumen-carrito__encabezado{
+      background-color: rgb(211, 44, 32);
+      color: white;
+    }
+  }
+
+
+  &__producto {
+    td {
+      text-align: center !important;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+
+      &:first-of-type {
+        display: flex !important;
+        align-items: center;
+
+        img {
+          height: 100px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+
+  &__resumen {
+    td {
+      &:last-of-type {
+        text-align: center !important;
+      }
+    }
+
+    .total-precio {
+      background-color: rgb(182, 14, 14);
+      font-weight: bold;
+      font-size: 25px;
+      color: white;
+    }
+
+    .clear {
+      border-bottom: 1px solid white !important;
+      border-left: 1px solid white !important;
+    }
+  }
+}

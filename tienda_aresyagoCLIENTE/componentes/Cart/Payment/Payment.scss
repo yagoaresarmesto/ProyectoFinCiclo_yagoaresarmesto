@@ -1,0 +1,18 @@
+.payment {
+    padding: 10px;
+  
+    .titulo {
+      width: max-content;
+      background-color: rgb(196, 18, 18);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px 5px 0 0;
+    }
+  
+    .data {
+      background-color: white;
+      box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+      padding: 15px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+//Y aquí todos los sas los importamos de manera global, es decir que se vean en todas las páginas
+@import "./index.scss";
+
+.ui.form{ //Para que se aplique en todos los fomularios que hayamos hecho
+    .ui.input{
+        input {
+            border: 1px solid rgb(0, 0, 0);
+            font-size: 16px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+          
+        }
+    }
+    .actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .ui.button.submit {
+        background-color: $rojoMenu;
+        color: rgb(255, 255, 255);
+        margin: 0;
+    }
+
+    ::placeholder {
+        color: rgb(143, 143, 143) !important;
+      }
+} 

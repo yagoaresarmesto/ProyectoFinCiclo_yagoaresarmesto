@@ -1,0 +1,17 @@
+.orders {
+    &__block {
+      padding: 10px;
+  
+      .title {
+        width: max-content;
+        background-color: rgb(177, 21, 21);
+        color: white;
+        padding: 5px 10px;
+     
+      }
+  
+      .data {
+        margin-top: 10px;
+      }
+    }
+  }

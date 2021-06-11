@@ -1,0 +1,22 @@
+.layout-basico {
+  min-height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/662787.png);
+  background-size: cover;
+  background-position: center;
+
+  .contenido {
+    //El contenido de la página
+    background-color: rgb(255, 255, 255); //Esta variable color es de sas, simplemente para verlo vete a la carpeta scss/colors.scss
+    height: calc(
+      100vh - 130px
+    ); //vh quiere decir que complete el 100% de la página
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    overflow-y: scroll;  //Para que haga scroll nuestra página de contenido
+
+    &::-webkit-scrollbar{ //Para ocultar la barra de scroll, que es molesta
+      display: none;
+    }
+  }
+}

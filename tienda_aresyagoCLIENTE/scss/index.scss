@@ -1,0 +1,39 @@
+//Aquí hacemos todas las importaciones de los sas que tenemos
+
+//Colores
+@import "./colors.scss";
+
+//Layouts 
+@import "../layouts/LayoutBasico/LayoutBasico.scss";
+
+//Páginas
+@import "../pages/cuenta.scss";
+@import "../pages/index.scss";
+@import "../pages/wishlist.scss";
+@import "../pages/search.scss";
+@import "../pages/cart.scss";
+@import "../pages/orders.scss";
+
+//Compoentes
+@import "../componentes/encabezado/encabezado.scss";
+@import "../componentes/encabezado/TopBar/TopBar.scss";
+@import "../componentes/encabezado/Menu/Menu.scss";
+@import "../componentes/modal/ModalBasico/ModalBasico.scss";
+@import "../componentes/Auth/LoginFormulario/LoginFomrulario.scss";
+@import "../componentes/Cuenta/CambiarNombreFormulario/CambiarNombreFormulario.scss";
+@import "../componentes/Cuenta/CambiarEmailFormulario/CambiarEmailForumlario.scss";
+@import "../componentes/Cuenta/CambiarContraseñaFormulario/CambiarContraseñaFormulario.scss";
+@import "../componentes/Cuenta/DireccionesFormulario/DireccionesFormulario.scss";
+@import "../componentes/Cuenta/ListaDirecciones/ListaDirecciones.scss";
+@import "../componentes/ListaProductos/ListaProductos.scss";
+@import "../componentes/Paginación/Pagination.scss";
+@import "../componentes/Producto/EncabezadoProducto/EncabezadoProducto.scss";
+@import "../componentes/Producto/TabsProduct/TabsProduct.scss";
+@import "../componentes/Producto/InfoProduct/InfoProduct.scss";
+@import "../componentes/Producto/CarouselScreenshots/CarrouselScreenshots.scss";
+@import "../componentes/Cart/SummaryCart/SummaryCart.scss";
+@import "../componentes/Cart/AddressShipping/AddressShipping.scss";
+@import "../componentes/Cart/Payment/Payment.scss";
+@import "../componentes/Cart/Payment/FormPayment/FormPayment.scss";
+@import "../componentes/Orders/Order.scss";
+@import "../componentes/Carrousel/Carrousel.scss";

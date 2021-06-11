@@ -1,0 +1,21 @@
+.form-pagos {
+    width: 60%;
+    margin: 0 auto;
+  
+    .StripeElement {
+      padding: 15px;
+      border-radius: 0.25rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+      border: 1px solid grey;
+    }
+  
+    .ui.button {
+      margin-top: 15px;
+      padding: 15px;
+      background-color: rgb(175, 5, 5);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+      color: white;
+      width: 100%;
+    }
+  }
+  
